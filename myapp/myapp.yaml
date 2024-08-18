@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: ~/argocd-deployment/myapp:latest
+          image: /Users/ratha/argocd-deployment/myapp:latest
           ports:
             - containerPort: 8081
 
