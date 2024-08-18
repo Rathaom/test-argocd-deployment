@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: ~/Lab/Java/running_k8s/deployment/myapp:latest
+          image: ~/argocd-deployment/myapp:latest
           ports:
             - containerPort: 8081
 
